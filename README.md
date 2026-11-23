@@ -1,8 +1,8 @@
-# 99Food Performance — versão 12
+# 99Food Performance — versão 15
 
 CRM comercial com identidade visual amarela 99Food.
 
-## Novidades da versão 12
+## Novidades da versão 15
 - Funil visual com quatro etapas: visitas, carrinhos, pedidos realizados e pedidos concluídos.
 - Cálculo automático das taxas por etapa e da conversão geral (pedidos concluídos ÷ visitas à loja).
 - Diagnóstico automático comparando os resultados com metas configuráveis pelo consultor.
@@ -19,4 +19,7 @@ Os dados e parâmetros ficam armazenados localmente no navegador. Faça backup r
 Correção v14: a conversão geral é recalculada ao digitar visitas e pedidos. Usa “Pedidos concluídos” quando preenchido; se esse campo estiver vazio, usa “Pedidos no período”.
 
 
-**Versão 14:** reorganização da navegação principal para Formulário, Concorrência, Performance, Relatórios e Histórico, nessa ordem. Backup permanece como último botão.
+**Versão 15:** reorganização da navegação principal para Formulário, Concorrência, Performance, Relatórios e Histórico, nessa ordem. Backup permanece como último botão.
+
+
+Correção v15: cálculo de conversão reforçado com atualização durante digitação, alteração de campo e saída do campo. Aceita separador decimal com vírgula.
