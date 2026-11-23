@@ -1,4 +1,4 @@
-# 99Food Performance — versão 15
+# 99Food Performance — versão 17
 
 CRM comercial com identidade visual amarela 99Food.
 
@@ -23,3 +23,9 @@ Correção v14: a conversão geral é recalculada ao digitar visitas e pedidos. 
 
 
 Correção v15: cálculo de conversão reforçado com atualização durante digitação, alteração de campo e saída do campo. Aceita separador decimal com vírgula.
+
+
+Correção v16: o campo de conversão geral agora é texto somente leitura para aceitar a formatação decimal brasileira (vírgula). O cálculo atualiza diretamente ao digitar, alterar ou sair dos campos de visitas e pedidos.
+
+
+**Versão 17:** removido do formulário o bloco ‘3. Indicadores de performance’ e removido o botão ‘Performance’ da navegação principal, conforme solicitado. As demais abas permanecem disponíveis.
