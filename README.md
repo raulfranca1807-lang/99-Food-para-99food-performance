@@ -1,16 +1,22 @@
-# 99Food Performance — versão 10
+# 99Food Performance — versão 12
 
 CRM comercial com identidade visual amarela 99Food.
 
-## Funcionalidades
-- Formulário de visita consultiva organizado em blocos
-- Respostas Sim/Não em cada pergunta do diagnóstico
-- Observações, evidências e status por pilar
-- Histórico de visitas
-- Performance, funil comercial e itens mais pedidos
-- Contratos Fixo e Flex
-- Comparação 99Food, Keeta e iFood
-- Pedidos, faturamento e relatórios
-- Backup e restauração local
+## Novidades da versão 12
+- Funil visual com quatro etapas: visitas, carrinhos, pedidos realizados e pedidos concluídos.
+- Cálculo automático das taxas por etapa e da conversão geral (pedidos concluídos ÷ visitas à loja).
+- Diagnóstico automático comparando os resultados com metas configuráveis pelo consultor.
+- Metas editáveis para visita→carrinho, carrinho→pedido, pedido→concluído e conversão geral.
+- Mantém formulário em blocos, respostas Sim/Não, status dos pilares, histórico, concorrência e relatórios.
 
-As respostas do diagnóstico ficam registradas no relatório individual da visita.
+## Arquivos
+- `index.html`
+- `app.js`
+
+Os dados e parâmetros ficam armazenados localmente no navegador. Faça backup regularmente. As metas iniciais são apenas valores de partida ilustrativos e devem ser ajustadas pelo consultor; não são benchmarks oficiais da 99Food.
+
+
+Correção v14: a conversão geral é recalculada ao digitar visitas e pedidos. Usa “Pedidos concluídos” quando preenchido; se esse campo estiver vazio, usa “Pedidos no período”.
+
+
+**Versão 14:** reorganização da navegação principal para Formulário, Concorrência, Performance, Relatórios e Histórico, nessa ordem. Backup permanece como último botão.
